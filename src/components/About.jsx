@@ -5,7 +5,11 @@ import {motion} from 'framer-motion'
 export default function About() {
   return (
     <div >
-        <h1 className='my-20 text-center text-4xl bg-gradient-to-r from-black via-slate-500 to-gray-500 text-transparent bg-clip-text'>About Me</h1>
+        <motion.h1
+        whileInView={{opacity:1,y:0}}
+        initial={{opacity:0,y:-100}}
+        transition={{duration:0.5}}
+         className='my-20 text-center text-4xl bg-gradient-to-r from-black via-slate-500 to-gray-500 text-transparent bg-clip-text'>About Me</motion.h1>
         <div className='flex flex-wrap'>
             <div className='w-full lg:w-1/2 lg:p-8'>
                 <div className='flex items-center justify-center'>

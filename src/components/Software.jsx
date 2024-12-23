@@ -28,39 +28,39 @@ export default function Software() {
         whileInView={{opacity:1,y:0}}
         initial={{opacity:0,y:-100}}
         transition={{duration:0.5}}
-         className='my-20 flex text-4xl items-center justify-center'> Software Proficiency</motion.h1>
+         className='my-20 flex text-4xl justify-center text-center'> Software Proficiency</motion.h1>
 
         <motion.div
         whileInView={{opacity:1,x:0}}
         initial={{opacity:0,x:-100}}
         transition={{duration:1.5}}
-         className='flex flex-wrap item-center justify-center gap-4 '>
+         className='flex flex-wrap item-center justify-center gap-4'>
             
             <motion.img
             variants={iconVariants(1.5)}
             initial='initial'
             animate='animate'
-             className='rounded-2xl border-4 h-[150px] w-[150px]' src={Art} alt="Art" />
+             className='rounded-2xl border-4 h-[120px] w-[120px]' src={Art} alt="Art" />
             <motion.img 
             variants={iconVariants(2)}
             initial='initial'
             animate='animate'
-            className='rounded-2xl border-4 h-[150px] w-[150px]' src={Cyp} alt="cyp" />
+            className='rounded-2xl border-4 h-[120px] w-[120px]' src={Cyp} alt="cyp" />
             <motion.img 
             variants={iconVariants(2.5)}
             initial='initial'
             animate='animate'
-            className='rounded-2xl border-4 h-[150px] w-[150px]' src={Auto} alt="auto" />
+            className='rounded-2xl border-4 h-[120px] w-[120px]' src={Auto} alt="auto" />
             <motion.img
             variants={iconVariants(3)}
             initial='initial'
             animate='animate'
-             className='rounded-2xl border-4 h-[150px] w-[150px]' src={Rd} alt="rd" />
+             className='rounded-2xl border-4 h-[120px] w-[120px]' src={Rd} alt="rd" />
             <motion.img 
             variants={iconVariants(3)}
             initial='initial'
             animate='animate'
-            className='rounded-2xl border-4 h-[150px] w-[150px]' src={Ym} alt="ym" />
+            className='rounded-2xl border-4 h-[120px] w-[120px]' src={Ym} alt="ym" />
         </motion.div>  
     </div>
   )

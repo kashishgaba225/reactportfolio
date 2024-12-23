@@ -15,13 +15,13 @@ export default function Content() {
     <div className='pb-4 lg:mb-35'>
       <div className='flex flex-wrap justify-between items-center'>
 
-        <div className='px-20 w-full lg:w-1/2'>
+        <div className='px-15 w-full lg:w-1/2'>
           <div className='flex flex-col items-center lg:items-start'>
             <motion.h1 
             variants={container(0)}
             initial='hidden'
             animate='visible'
-            className='logo flex items-center justify-center text-6xl pb-16 font-thin tracking-tight lg:text-8xl lg:mt-16'>Harshad</motion.h1>
+            className='logo flex  text-6xl pb-16 font-thin tracking-tight lg:text-8xl lg:mt-16'>Harshad</motion.h1>
             <motion.span 
             variants={container(0.5)}
             initial='hidden'

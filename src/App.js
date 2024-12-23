@@ -9,7 +9,7 @@ import Contact from './components/Contact'
 
 export default function App() {
   return (
-    <div className='overflow-x-auto'>
+    <div className='overflow-x-hidden'>
       <div className='fixed top-0 -z-10 h-full w-full'>
       <div class="absolute inset-0 -z-10 h-screen w-screen bg-white [background:radial-gradient(125%_125%_at_50%_10%,#fff_40%,#63e_100%)]"></div>
       </div>

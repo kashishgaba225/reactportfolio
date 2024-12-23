@@ -7,7 +7,7 @@ import { FaInstagram,FaLinkedin,FaWhatsapp,FaFacebook } from "react-icons/fa6";
 
 export default function Navbar() {
   return (
-    <nav className='flex mb-20 items-center justify-between py-6 px-20 text-white'>
+    <nav className='flex mb-20 items-center justify-between py-6 px-15 text-white'>
         
         <div className='flex  flex-shrink-0 items-center'>
             <div className=' font-bold hover:scale-110 duration-300 hover:ring-2 ring-indigo-950 cursour-pointer '><img className='h-[50px] w-[100px]' src={imag} alt="" /></div>
